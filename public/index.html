@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" type="image/x-icon">
+    <title>Instagram video downloader</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Instagram video downloader</h1>
+        <form id="submit-video-link" action="/get" method="POST">
+            <input type="text" name="url" onfocus="this.value = ''" autocomplete="off" placeholder="Post link..." required />
+            <button type="submit">Download</button>
+        </form>
+        <br>
+        <p>Made by <a href="https://github.com/uwuxia" target="_blank">@uwuxia</a></p>
+    </div>
+</body>
+</html>
